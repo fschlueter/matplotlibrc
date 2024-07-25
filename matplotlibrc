@@ -378,7 +378,7 @@ axes.linewidth:      2     # edge line width
                              # text.color as default value
 #axes.titley:        None    # position title (axes relative units).  None implies auto
 #axes.titlepad:      6.0     # pad between axes and title in points
-axes.labelsize:      large   # font size of the x and y labels
+axes.labelsize:      x-large   # font size of the x and y labels
 #axes.labelpad:      4.0     # space between label and axis
 axes.labelweight:    bold    # weight of the x and y labels
 #axes.labelcolor:    black
@@ -387,7 +387,7 @@ axes.labelweight:    bold    # weight of the x and y labels
                              #     - above patches but below lines ('line')
                              #     - above all (False)
 
-#axes.formatter.limits: -5, 6  # use scientific notation if log10
+axes.formatter.limits: -3, 4  # use scientific notation if log10
                                # of the axis range is smaller than the
                                # first or larger than the second
 #axes.formatter.use_locale: False  # When True, format tick labels
@@ -705,7 +705,7 @@ figure.subplot.top:    0.97   # the top of the subplots of the figure
                                 # interactive saves, unless set to the empty string (i.e.
                                 # the current directory); use '.' to start at the current
                                 # directory but update after interactive saves
-#savefig.transparent: False     # whether figures are saved with a transparent
+savefig.transparent: False      # whether figures are saved with a transparent
                                 # background by default
 #savefig.orientation: portrait  # orientation of saved figure, for PostScript output only
 
